@@ -1,13 +1,32 @@
 /* Step-2 You can assign padding to all sides of a container by using the padding property. */
 
+
+
+.footer{
+	width: 100%;
+    height: 100px;
+    background: #D8D8D8;
+}
+
+.content-mid{
+	 height:750px;
+	 width:87%;
+	 float:left;
+ }	 
+
 .content-left {
- 
+ height:750px;
+ width:13%;
+ float:left;
+ display:inline-block;
 }
 
 /* Step 2 You can assign padding to all sides of a container by using the padding property. */
 
 .header {
-  
+	width: 100%;
+    height: 100px;
+    background: #D8D8D8;
 }
 
 
@@ -27,6 +46,12 @@
 
 .logo-container {
     background: #4F4949;
+	height:50px;
+	width:200px;
+	position:absolute;
+	margin-top:20px;
+	margin-left:20px;
+	display:inline-block;
 }
 
 
@@ -34,7 +59,29 @@
 
 .menu-container {
     background: #4F4949;
+	float:right;
+	width:40px;
+	height:50px;
+	position:relative;
+	top:20px;
+	right:20px;
 }
+.profile-image-container{
+	width:200px;
+	height:150px;
+	position:relative;
+	top:20px;
+	left:20px;
+}
+.profile-links-container{
+	width:200px;
+	height:510px;
+	position:relative;
+	left:20px;
+	top:55px;
+}	
+
+
 
 
 
