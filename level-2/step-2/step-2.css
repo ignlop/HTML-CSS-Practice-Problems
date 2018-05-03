@@ -6,18 +6,19 @@
 
 /* Step-2 Add a width, height and display property to make these containers look like the design. */
 .item {
-   /*width*/
-    /*height*/
-    /*display*/
-    margin: 0 20px 30px;
+    width:45%;
+    height:200px;
+    display:inline-block;
     background: #DED6D3;
     margin-bottom: 30px;
+	margin-top:10px;	
+	margin-left:60px;
 }
 
 /* Step-2 Add a width, height, and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container. */
 .full-width-item {
-    /*width*/
-    /*height*/
+    width:94%;
+    height:200px;
     /*margin*/
     margin:0 auto 30px;
     background: #DED6D3;
